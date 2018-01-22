@@ -31,7 +31,7 @@ public class WhaleWatcher {
 		
 		Whale[] whales = {Right, Blue, Sperm, Humpback};
 		
-		invoking methods
+		//invoking methods
 		displayAll(whales);
 		atlanticSwimmers(whales, "Atlantic");
 		fastestSwimmers(whales);
