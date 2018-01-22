@@ -31,11 +31,11 @@ public class WhaleWatcher {
 		
 		Whale[] whales = {Right, Blue, Sperm, Humpback};
 		
-		//invoking methods
-		//displayAll(whales);
-		//atlanticSwimmers(whales, "Atlantic");
-		//fastestSwimmers(whales);
-		//averageLenght(whales);
+		invoking methods
+		displayAll(whales);
+		atlanticSwimmers(whales, "Atlantic");
+		fastestSwimmers(whales);
+		averageLenght(whales);
 		heaviestWhale(whales);
 		
 	}
