@@ -1,18 +1,12 @@
 /**
- * 
- */
-package practicalTen;
-
-/**
  * @author Ciaran
  *
  */
 public class Whale extends Animal {
-	
 	private String mainOcean;
 	private int weight;
 	private int maxSpeed;
-	private int lenght; 
+	private int length;
 
 	/**
 	 * Default Constructor
@@ -25,14 +19,14 @@ public class Whale extends Animal {
 	 * @param mainOcean
 	 * @param weight
 	 * @param maxSpeed
-	 * @param lenght
+	 * @param length
 	 */
-	public Whale(String name, String mainOcean, int weight, int maxSpeed, int lenght) {
+	public Whale(String name, String mainOcean, int weight, int maxSpeed, int length) {
 		super(name);
 		this.mainOcean = mainOcean;
 		this.setWeight(weight);
 		this.maxSpeed = maxSpeed;
-		this.lenght = lenght;
+		this.length = length;
 	}
 
 	/**
@@ -63,10 +57,9 @@ public class Whale extends Animal {
 		if(weight<=0 || weight>= 100000) {
 			weight = 0;
 			System.out.println("Error in registering weight of whale");
-		}else {
+		} else {
 			this.weight = weight;
 		}
-		
 	}
 
 	/**
@@ -84,17 +77,17 @@ public class Whale extends Animal {
 	}
 
 	/**
-	 * @return the lenght
+	 * @return the length
 	 */
-	public int getLenght() {
-		return this.lenght;
+	public int getLength() {
+		return this.length;
 	}
 
 	/**
-	 * @param lenght the lenght to set
+	 * @param length the length to set
 	 */
-	public void setLenght(int lenght) {
-		this.lenght = lenght;
+	public void setLength(int length) {
+		this.length = length;
 	}
 
 	/* (non-Javadoc)
@@ -103,8 +96,6 @@ public class Whale extends Animal {
 	@Override
 	public String toString() {
 		return "Whale [mainOcean=" + this.mainOcean + ", weight=" + this.weight + ", maxSpeed=" + this.maxSpeed
-				+ ", lenght=" + this.lenght + "]";
+				+ ", length=" + this.length + "]";
 	}
-
-	
 }
