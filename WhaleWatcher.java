@@ -35,7 +35,7 @@ public class WhaleWatcher {
 		displayAll(whales);
 		atlanticSwimmers(whales, "Atlantic");
 		fastestSwimmers(whales);
-		averageLenght(whales);
+		averageLength(whales);
 		heaviestWhale(whales);
 	}
 
@@ -88,13 +88,13 @@ public class WhaleWatcher {
 	 * method to calculate the average length of all the whales
 	 *
 	 */
-	public static void averageLenght(Whale[] whales) {
+	public static void averagelength(Whale[] whales) {
 
 		// var to store the total weight
 		double total = 0;
 
 		for (int loop = 0; loop < whales.length; loop++) {
-			total+=whales[loop].getLenght();
+			total+=whales[loop].getLength();
 		}
 		System.out.printf("The average length of a whale is %.2f ", total/whales.length);
 	}
