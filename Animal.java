@@ -1,14 +1,14 @@
 /**
- * 
- */
+*
+*/
 package practicalTen;
 
 /**
- * @author Ciaran
- *
- */
+* @author Ciaran
+*
+*/
 public class Animal {
-	
+
 	private String name;
 
 	/**
@@ -39,7 +39,4 @@ public class Animal {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
-
 }

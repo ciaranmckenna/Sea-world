@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package practicalTen;
 
@@ -8,11 +8,10 @@ package practicalTen;
  *
  */
 public class Whale extends Animal {
-	
 	private String mainOcean;
 	private int weight;
 	private int maxSpeed;
-	private int lenght; 
+	private int lenght;
 
 	/**
 	 * Default Constructor
@@ -63,10 +62,9 @@ public class Whale extends Animal {
 		if(weight<=0 || weight>= 100000) {
 			weight = 0;
 			System.out.println("Error in registering weight of whale");
-		}else {
+		} else {
 			this.weight = weight;
 		}
-		
 	}
 
 	/**
@@ -105,6 +103,4 @@ public class Whale extends Animal {
 		return "Whale [mainOcean=" + this.mainOcean + ", weight=" + this.weight + ", maxSpeed=" + this.maxSpeed
 				+ ", lenght=" + this.lenght + "]";
 	}
-
-	
 }
