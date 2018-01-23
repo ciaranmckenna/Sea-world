@@ -1,9 +1,4 @@
 /**
- *
- */
-package practicalTen;
-
-/**
  * @author Ciaran
  * whale watcher class to test the whale class
  */

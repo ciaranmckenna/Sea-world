@@ -1,9 +1,4 @@
 /**
-*
-*/
-package practicalTen;
-
-/**
 * @author Ciaran
 *
 */
