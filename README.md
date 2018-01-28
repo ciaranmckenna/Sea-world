@@ -27,7 +27,7 @@ javac WhaleWatcher.java
 java WhaleWatcher
 ```
 
-The will output to the console the results of the hardcoded arrays.
+This will output to the console the results of the hardcoded arrays.
 
 ## Authors
 
